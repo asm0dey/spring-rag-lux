@@ -1,0 +1,25 @@
+{
+  "name": "slidev",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "build-gha": "slidev build --base spring-rag-lux/",
+    "dev": "slidev",
+    "export": "slidev export",
+    "export-pdf": "slidev export --with-clicks --format pdf --output dist/index.pdf"
+  },
+  "dependencies": {
+    "@iconify-json/logos": "^1.2.4",
+    "@slidev/cli": "^51.8.2",
+    "@slidev/theme-apple-basic": "^0.25.1",
+    "@slidev/theme-bricks": "^0.25.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "playwright-chromium": "^1.53.1",
+    "slidev-addon-qrcode": "^1.0.2",
+    "slidev-theme-geist": "^0.8.1",
+    "slidev-theme-the-unnamed": "^0.0.22",
+    "vue": "^3.5.17"
+  }
+}
