@@ -19,7 +19,7 @@
     "playwright-chromium": "^1.53.1",
     "slidev-addon-qrcode": "^1.0.2",
     "slidev-theme-geist": "^0.8.1",
-    "slidev-theme-the-unnamed": "^0.0.22",
+    "slidev-theme-the-unnamed": "^0.0.24",
     "vue": "^3.5.17"
   }
 }
